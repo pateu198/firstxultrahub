@@ -1,0 +1,766 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local FirstXHUB = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Universal = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local InfiniteYeld = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local CMDX = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local invisibility = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local Qtotp = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local UnamedESP = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
+local Tpgui = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UIGradient_8 = Instance.new("UIGradient")
+local Games = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient_9 = Instance.new("UIGradient")
+local DaHood = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local UIGradient_10 = Instance.new("UIGradient")
+local JailBreak = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local UIGradient_11 = Instance.new("UIGradient")
+local PetXSim = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local UIGradient_12 = Instance.new("UIGradient")
+local BeeSwarm = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local UIGradient_13 = Instance.new("UIGradient")
+local DarkDex = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local UIGradient_14 = Instance.new("UIGradient")
+local Misc = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local UIGradient_15 = Instance.new("UIGradient")
+local Saveinstance = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local UIGradient_16 = Instance.new("UIGradient")
+local FpsBoost = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local UIGradient_17 = Instance.new("UIGradient")
+local UniversalSpeed = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local UIGradient_18 = Instance.new("UIGradient")
+local ServerCrasher = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local UIGradient_19 = Instance.new("UIGradient")
+local Radio = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local UIGradient_20 = Instance.new("UIGradient")
+local RadioB = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_22 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Main_2 = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local Main_3 = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local UIGradient_21 = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local UIGradient_22 = Instance.new("UIGradient")
+
+--Properties:
+
+FirstXHUB.Name = "First-X HUB"
+FirstXHUB.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+FirstXHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+FirstXHUB.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = FirstXHUB
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.Position = UDim2.new(0.23982808, 0, 0.172968119, 0)
+Main.Size = UDim2.new(0, 372, 0, 456)
+Main.Visible = false
+
+UICorner.Parent = Main
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(53, 53, 53)), ColorSequenceKeypoint.new(0.90, Color3.fromRGB(75, 75, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91))}
+UIGradient.Parent = Main
+
+Universal.Name = "Universal"
+Universal.Parent = Main
+Universal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Universal.Position = UDim2.new(0.0474622399, 0, 0.0418780223, 0)
+Universal.Size = UDim2.new(0, 154, 0, 201)
+
+UICorner_2.Parent = Universal
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(71, 71, 71))}
+UIGradient_2.Parent = Universal
+
+InfiniteYeld.Name = "InfiniteYeld"
+InfiniteYeld.Parent = Universal
+InfiniteYeld.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYeld.Position = UDim2.new(0.0909090936, 0, 0.199004978, 0)
+InfiniteYeld.Size = UDim2.new(0, 126, 0, 24)
+InfiniteYeld.Font = Enum.Font.PermanentMarker
+InfiniteYeld.Text = "Iinfinite Yeld"
+InfiniteYeld.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYeld.TextScaled = true
+InfiniteYeld.TextSize = 14.000
+InfiniteYeld.TextWrapped = true
+
+UICorner_3.Parent = InfiniteYeld
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_3.Parent = InfiniteYeld
+
+CMDX.Name = "CMD-X"
+CMDX.Parent = Universal
+CMDX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CMDX.Position = UDim2.new(0.0909090936, 0, 0.358208984, 0)
+CMDX.Size = UDim2.new(0, 126, 0, 24)
+CMDX.Font = Enum.Font.PermanentMarker
+CMDX.Text = "CMD-X"
+CMDX.TextColor3 = Color3.fromRGB(0, 0, 0)
+CMDX.TextScaled = true
+CMDX.TextSize = 14.000
+CMDX.TextWrapped = true
+
+UICorner_4.Parent = CMDX
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_4.Parent = CMDX
+
+invisibility.Name = "invisibility"
+invisibility.Parent = Universal
+invisibility.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+invisibility.Position = UDim2.new(0.0909090936, 0, 0.51243782, 0)
+invisibility.Size = UDim2.new(0, 126, 0, 24)
+invisibility.Font = Enum.Font.PermanentMarker
+invisibility.Text = "Inivisibility"
+invisibility.TextColor3 = Color3.fromRGB(0, 0, 0)
+invisibility.TextScaled = true
+invisibility.TextSize = 14.000
+invisibility.TextWrapped = true
+
+UICorner_5.Parent = invisibility
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_5.Parent = invisibility
+
+Qtotp.Name = "Qtotp"
+Qtotp.Parent = Universal
+Qtotp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Qtotp.Position = UDim2.new(0.0909090936, 0, 0.666666746, 0)
+Qtotp.Size = UDim2.new(0, 126, 0, 24)
+Qtotp.Font = Enum.Font.PermanentMarker
+Qtotp.Text = "Q to Tp"
+Qtotp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Qtotp.TextScaled = true
+Qtotp.TextSize = 14.000
+Qtotp.TextWrapped = true
+
+UICorner_6.Parent = Qtotp
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_6.Parent = Qtotp
+
+UnamedESP.Name = "UnamedESP"
+UnamedESP.Parent = Universal
+UnamedESP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UnamedESP.Position = UDim2.new(0.0909090936, 0, 0.815920472, 0)
+UnamedESP.Size = UDim2.new(0, 126, 0, 24)
+UnamedESP.Font = Enum.Font.PermanentMarker
+UnamedESP.Text = "Unamed ESP"
+UnamedESP.TextColor3 = Color3.fromRGB(0, 0, 0)
+UnamedESP.TextScaled = true
+UnamedESP.TextSize = 14.000
+UnamedESP.TextWrapped = true
+
+UICorner_7.Parent = UnamedESP
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_7.Parent = UnamedESP
+
+Tpgui.Name = "Tpgui"
+Tpgui.Parent = Universal
+Tpgui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tpgui.Position = UDim2.new(0.0909090936, 0, 0.0398010015, 0)
+Tpgui.Size = UDim2.new(0, 126, 0, 24)
+Tpgui.Font = Enum.Font.PermanentMarker
+Tpgui.Text = "Tp GUI"
+Tpgui.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tpgui.TextScaled = true
+Tpgui.TextSize = 14.000
+Tpgui.TextWrapped = true
+
+UICorner_8.Parent = Tpgui
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_8.Parent = Tpgui
+
+Games.Name = "Games"
+Games.Parent = Main
+Games.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Games.Position = UDim2.new(0.047462225, 0, 0.515952289, 0)
+Games.Size = UDim2.new(0, 154, 0, 201)
+
+UICorner_9.Parent = Games
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(71, 71, 71))}
+UIGradient_9.Parent = Games
+
+DaHood.Name = "DaHood"
+DaHood.Parent = Games
+DaHood.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DaHood.Position = UDim2.new(0.0909090936, 0, 0.24378109, 0)
+DaHood.Size = UDim2.new(0, 126, 0, 24)
+DaHood.Font = Enum.Font.PermanentMarker
+DaHood.Text = "DaHood"
+DaHood.TextColor3 = Color3.fromRGB(0, 0, 0)
+DaHood.TextScaled = true
+DaHood.TextSize = 14.000
+DaHood.TextWrapped = true
+
+UICorner_10.Parent = DaHood
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_10.Parent = DaHood
+
+JailBreak.Name = "JailBreak"
+JailBreak.Parent = Games
+JailBreak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JailBreak.Position = UDim2.new(0.0909090936, 0, 0.437810957, 0)
+JailBreak.Size = UDim2.new(0, 126, 0, 24)
+JailBreak.Font = Enum.Font.PermanentMarker
+JailBreak.Text = "JailBreak"
+JailBreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+JailBreak.TextScaled = true
+JailBreak.TextSize = 14.000
+JailBreak.TextWrapped = true
+
+UICorner_11.Parent = JailBreak
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_11.Parent = JailBreak
+
+PetXSim.Name = "PetX Sim"
+PetXSim.Parent = Games
+PetXSim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PetXSim.Position = UDim2.new(0.0909090936, 0, 0.626865685, 0)
+PetXSim.Size = UDim2.new(0, 126, 0, 24)
+PetXSim.Font = Enum.Font.PermanentMarker
+PetXSim.Text = "PetX Sim"
+PetXSim.TextColor3 = Color3.fromRGB(0, 0, 0)
+PetXSim.TextScaled = true
+PetXSim.TextSize = 14.000
+PetXSim.TextWrapped = true
+
+UICorner_12.Parent = PetXSim
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_12.Parent = PetXSim
+
+BeeSwarm.Name = "BeeSwarm"
+BeeSwarm.Parent = Games
+BeeSwarm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BeeSwarm.Position = UDim2.new(0.0909090936, 0, 0.810945332, 0)
+BeeSwarm.Size = UDim2.new(0, 126, 0, 24)
+BeeSwarm.Font = Enum.Font.PermanentMarker
+BeeSwarm.Text = "BeeSwarm"
+BeeSwarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+BeeSwarm.TextScaled = true
+BeeSwarm.TextSize = 14.000
+BeeSwarm.TextWrapped = true
+
+UICorner_13.Parent = BeeSwarm
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_13.Parent = BeeSwarm
+
+DarkDex.Name = "DarkDex"
+DarkDex.Parent = Games
+DarkDex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DarkDex.Position = UDim2.new(0.0909090936, 0, 0.0447761267, 0)
+DarkDex.Size = UDim2.new(0, 126, 0, 24)
+DarkDex.Font = Enum.Font.PermanentMarker
+DarkDex.Text = "DarkDex"
+DarkDex.TextColor3 = Color3.fromRGB(0, 0, 0)
+DarkDex.TextScaled = true
+DarkDex.TextSize = 14.000
+DarkDex.TextWrapped = true
+
+UICorner_14.Parent = DarkDex
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_14.Parent = DarkDex
+
+Misc.Name = "Misc"
+Misc.Parent = Main
+Misc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Misc.Position = UDim2.new(0.539397776, 0, 0.0439441316, 0)
+Misc.Size = UDim2.new(0, 154, 0, 417)
+
+UICorner_15.Parent = Misc
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(71, 71, 71))}
+UIGradient_15.Parent = Misc
+
+Saveinstance.Name = "Saveinstance"
+Saveinstance.Parent = Misc
+Saveinstance.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Saveinstance.Position = UDim2.new(0.0909090936, 0, 0.0158201866, 0)
+Saveinstance.Size = UDim2.new(0, 126, 0, 24)
+Saveinstance.Font = Enum.Font.PermanentMarker
+Saveinstance.Text = "SaveInstance"
+Saveinstance.TextColor3 = Color3.fromRGB(0, 0, 0)
+Saveinstance.TextScaled = true
+Saveinstance.TextSize = 14.000
+Saveinstance.TextWrapped = true
+
+UICorner_16.Parent = Saveinstance
+
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_16.Parent = Saveinstance
+
+FpsBoost.Name = "Fps Boost"
+FpsBoost.Parent = Misc
+FpsBoost.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FpsBoost.Position = UDim2.new(0.0909090936, 0, 0.0916998237, 0)
+FpsBoost.Size = UDim2.new(0, 126, 0, 24)
+FpsBoost.Font = Enum.Font.PermanentMarker
+FpsBoost.Text = "Fps Boost"
+FpsBoost.TextColor3 = Color3.fromRGB(0, 0, 0)
+FpsBoost.TextScaled = true
+FpsBoost.TextSize = 14.000
+FpsBoost.TextWrapped = true
+
+UICorner_17.Parent = FpsBoost
+
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_17.Parent = FpsBoost
+
+UniversalSpeed.Name = "UniversalSpeed"
+UniversalSpeed.Parent = Misc
+UniversalSpeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UniversalSpeed.Position = UDim2.new(0.0909090936, 0, 0.168438435, 0)
+UniversalSpeed.Size = UDim2.new(0, 126, 0, 24)
+UniversalSpeed.Font = Enum.Font.PermanentMarker
+UniversalSpeed.Text = "Universal Speed"
+UniversalSpeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+UniversalSpeed.TextScaled = true
+UniversalSpeed.TextSize = 14.000
+UniversalSpeed.TextWrapped = true
+
+UICorner_18.Parent = UniversalSpeed
+
+UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_18.Parent = UniversalSpeed
+
+ServerCrasher.Name = "ServerCrasher"
+ServerCrasher.Parent = Misc
+ServerCrasher.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ServerCrasher.Position = UDim2.new(0.0909090936, 0, 0.317119509, 0)
+ServerCrasher.Size = UDim2.new(0, 126, 0, 24)
+ServerCrasher.Font = Enum.Font.PermanentMarker
+ServerCrasher.Text = "ServerCrasher"
+ServerCrasher.TextColor3 = Color3.fromRGB(0, 0, 0)
+ServerCrasher.TextScaled = true
+ServerCrasher.TextSize = 14.000
+ServerCrasher.TextWrapped = true
+
+UICorner_19.Parent = ServerCrasher
+
+UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_19.Parent = ServerCrasher
+
+Radio.Name = "Radio"
+Radio.Parent = Misc
+Radio.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Radio.Position = UDim2.new(0.0909090936, 0, 0.242778987, 0)
+Radio.Size = UDim2.new(0, 126, 0, 24)
+Radio.Font = Enum.Font.PermanentMarker
+Radio.Text = "Radio"
+Radio.TextColor3 = Color3.fromRGB(0, 0, 0)
+Radio.TextScaled = true
+Radio.TextSize = 14.000
+Radio.TextWrapped = true
+
+UICorner_20.Parent = Radio
+
+UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(152, 152, 152)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 93, 93))}
+UIGradient_20.Parent = Radio
+
+RadioB.Name = "RadioB"
+RadioB.Parent = Misc
+RadioB.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+RadioB.BackgroundTransparency = 0.400
+RadioB.BorderColor3 = Color3.fromRGB(27, 42, 53)
+RadioB.Position = UDim2.new(0.998936474, 0, -0.0481319688, 0)
+RadioB.Size = UDim2.new(0, 386, 0, 430)
+RadioB.Visible = false
+
+TextButton.Parent = RadioB
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 0.350
+TextButton.Position = UDim2.new(0.239554107, 0, 0.607751906, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SciFi
+TextButton.Text = "Play"
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextButton.TextSize = 28.000
+
+UICorner_21.Parent = TextButton
+
+TextBox.Parent = RadioB
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 0.350
+TextBox.Position = UDim2.new(0.239554107, 0, 0.177519381, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.Font = Enum.Font.SciFi
+TextBox.Text = "ID"
+TextBox.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextBox.TextSize = 28.000
+
+UICorner_22.Parent = TextBox
+
+UICorner_23.Parent = RadioB
+
+TextButton_2.Parent = RadioB
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_2.Position = UDim2.new(0.888422787, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0, 43, 0, 34)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "X"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_24.Parent = TextButton_2
+
+Main_2.Name = "Main"
+Main_2.Parent = Main
+Main_2.BackgroundColor3 = Color3.fromRGB(0, 0, 103)
+Main_2.Position = UDim2.new(0, 0, -0.155701771, 0)
+Main_2.Size = UDim2.new(0, 372, 0, 46)
+
+UICorner_25.Parent = Main_2
+
+Main_3.Name = "Main"
+Main_3.Parent = Main
+Main_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main_3.Position = UDim2.new(0, 0, -0.14692983, 0)
+Main_3.Size = UDim2.new(0, 372, 0, 46)
+
+UICorner_26.Parent = Main_3
+
+UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(84, 84, 84)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(63, 63, 63))}
+UIGradient_21.Parent = Main_3
+
+TextLabel.Parent = Main_3
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.231182754, 0, 0.086956501, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 38)
+TextLabel.Font = Enum.Font.PermanentMarker
+TextLabel.Text = "First-X HUB"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 29.000
+
+TextButton_3.Parent = FirstXHUB
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(-0.000521181151, 0, 0.736453831, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 50)
+TextButton_3.Font = Enum.Font.PermanentMarker
+TextButton_3.Text = "Open/Close GUI"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UICorner_27.Parent = TextButton_3
+
+UIGradient_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(50, 50, 50)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(106, 106, 106))}
+UIGradient_22.Parent = TextButton_3
+
+-- Scripts:
+
+local function LRBR_fake_script() -- InfiniteYeld.LocalScript 
+	local script = Instance.new('LocalScript', InfiniteYeld)
+
+	InfiniteYeld.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(LRBR_fake_script)()
+local function SJDETR_fake_script() -- CMDX.LocalScript 
+	local script = Instance.new('LocalScript', CMDX)
+
+	CMDX.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	end)
+end
+coroutine.wrap(SJDETR_fake_script)()
+local function EBGOA_fake_script() -- invisibility.LocalScript 
+	local script = Instance.new('LocalScript', invisibility)
+
+	invisibility.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/PhoenixAceVFX/Roblox-Scripts/master/FE%20Invisible.lua", true))()
+	end)
+end
+coroutine.wrap(EBGOA_fake_script)()
+local function VIGDB_fake_script() -- Qtotp.LocalScript 
+	local script = Instance.new('LocalScript', Qtotp)
+
+	Qtotp.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/qyww70GR'),true))()
+	end)
+end
+coroutine.wrap(VIGDB_fake_script)()
+local function IOCPX_fake_script() -- UnamedESP.LocalScript 
+	local script = Instance.new('LocalScript', UnamedESP)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua", true))()
+	end)
+end
+coroutine.wrap(IOCPX_fake_script)()
+local function XEND_fake_script() -- Tpgui.LocalScript 
+	local script = Instance.new('LocalScript', Tpgui)
+
+	Tpgui.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/DagerFild/b4776075a0d26ef04394133ee6bd2081/raw/0ed51ac94057d2d9a9f00e1b037b9011c76ca54a/tpGUI", true))()
+	end)
+end
+coroutine.wrap(XEND_fake_script)()
+local function YKLB_fake_script() -- DaHood.LocalScript 
+	local script = Instance.new('LocalScript', DaHood)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/jynzl/Da-Hood-Gui/main/Da%20Hood%20GUI"),true))()
+	end)
+end
+coroutine.wrap(YKLB_fake_script)()
+local function JNOM_fake_script() -- JailBreak.LocalScript 
+	local script = Instance.new('LocalScript', JailBreak)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"),true))()
+	end)
+end
+coroutine.wrap(JNOM_fake_script)()
+local function ZKNW_fake_script() -- PetXSim.LocalScript 
+	local script = Instance.new('LocalScript', PetXSim)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/95HthyJq"),true))()
+	end)
+end
+coroutine.wrap(ZKNW_fake_script)()
+local function FJAYYB_fake_script() -- BeeSwarm.LocalScript 
+	local script = Instance.new('LocalScript', BeeSwarm)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/not-weuz/Lua/main/bsstrainer.lua"),true))()
+	end)
+end
+coroutine.wrap(FJAYYB_fake_script)()
+local function YCFA_fake_script() -- DarkDex.LocalScript 
+	local script = Instance.new('LocalScript', DarkDex)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/fPP8bZ8Z"),true))()
+	end)
+end
+coroutine.wrap(YCFA_fake_script)()
+local function ORTMJ_fake_script() -- Saveinstance.LocalScript 
+	local script = Instance.new('LocalScript', Saveinstance)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/ywFjby1i"),true))()
+	end)
+end
+coroutine.wrap(ORTMJ_fake_script)()
+local function BHUH_fake_script() -- FpsBoost.LocalScript 
+	local script = Instance.new('LocalScript', FpsBoost)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/ywFjby1i"),true))()
+	end)
+end
+coroutine.wrap(BHUH_fake_script)()
+local function STBEQ_fake_script() -- UniversalSpeed.LocalScript 
+	local script = Instance.new('LocalScript', UniversalSpeed)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AaronS69420/unca/main/ff"))()
+	end)
+end
+coroutine.wrap(STBEQ_fake_script)()
+local function KLGMJ_fake_script() -- ServerCrasher.LocalScript 
+	local script = Instance.new('LocalScript', ServerCrasher)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/lucatror5555/ServerLagger-ROBLOX/main/message%20(15).txt"))()
+	end)
+end
+coroutine.wrap(KLGMJ_fake_script)()
+local function VADSTES_fake_script() -- Radio.LocalScript 
+	local script = Instance.new('LocalScript', Radio)
+
+	local frame = script.Parent.Parent.RadioB
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = true
+	end)
+end
+coroutine.wrap(VADSTES_fake_script)()
+local function YHALWN_fake_script() -- RadioB.LocalScript 
+	local script = Instance.new('LocalScript', RadioB)
+
+	script.Parent.TextButton.MouseButton1Click:Connect(function() 
+		local text = script.Parent.TextBox.Text
+		script.Parent.Sound.SoundId = "rbxassetid://" ..text
+		wait(0.3)
+		print("lagu mulai")
+		script.Parent.Sound:Play()
+	end)
+end
+coroutine.wrap(YHALWN_fake_script)()
+local function XZQQMO_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(XZQQMO_fake_script)()
+local function QJYM_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	Main.Active = true
+	Main.Draggable = true
+end
+coroutine.wrap(QJYM_fake_script)()
+local function RUVD_fake_script() -- Main_2.LocalScript 
+	local script = Instance.new('LocalScript', Main_2)
+
+	Main.Active = true
+	Main.Draggable = true
+end
+coroutine.wrap(RUVD_fake_script)()
+local function EUWLCI_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local function VHMSYG_fake_script() -- ScreenGui.LocalScript 
+		local script = Instance.new('LocalScript', ScreenGui)
+		--// Variables
+	
+		local Players = game:GetService("Players")
+		local OldNameCall = nil
+	
+		--// Global Variables
+	
+		getgenv().SendNotifications = true -- Set to true if you want to get notified regularly.
+	
+		--// Anti Kick Hook
+	
+		OldNameCall = hookmetamethod(game, "__namecall", function(Self, ...)
+			local NameCallMethod = getnamecallmethod()
+	
+			if tostring(string.lower(NameCallMethod)) == "kick" then
+				if getgenv().SendNotifications == true then
+					game:GetService("StarterGui"):SetCore("SendNotification", {
+						Title = "First-X HUB",
+						Text = "You almost got kicked! Successfully prevented.",
+						Icon = "rbxassetid://8934602712",
+						Duration = 3,
+					})
+				end
+	
+				return nil
+			end
+	
+			return OldNameCall(Self, ...)
+		end)
+	
+		if getgenv().SendNotifications == true then
+			game:GetService("StarterGui"):SetCore("SendNotification", {
+				Title = "First-X Hub",
+				Text = "First-X Hub is now ready.",
+				Icon = "rbxassetid://8934602712",
+				Duration = 5,
+			})
+		end
+	end
+	coroutine.wrap(VHMSYG_fake_script)()
+end
+coroutine.wrap(EUWLCI_fake_script)()
+local function WADGQPP_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	TextLabel.Active = true
+	TextLabel.Draggable = true
+end
+coroutine.wrap(WADGQPP_fake_script)()
+local function JHIRDY_fake_script() -- Main_3.LocalScript 
+	local script = Instance.new('LocalScript', Main_3)
+
+	Main.Active = true
+	Main.Draggable = true
+end
+coroutine.wrap(JHIRDY_fake_script)()
+local function IRYO_fake_script() -- TextButton_3.Open/Close (PUT ME IN A TEXTBUTTON) 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:connect(function()
+	 script.Parent.Parent.Main.Visible = not script.Parent.Parent.Main.Visible
+	end)
+	
+	--                                                               ^
+	--]]	Change "Credit" to the name of the frame                 ^                      
+end
+coroutine.wrap(IRYO_fake_script)()
+local function YBQPVLZ_fake_script() -- nil.Instructions 
+	local script = Instance.new('Script', nil)
+
+	---Hello! Thank you for using this script originally by Roman On Fire on YouTube!
+	
+	--First of all- I'm dumb. I'm taking no credit for this. All credit goes to Roman On Fire.
+	
+	--SO!
+	
+	
+	----- ~Instructions~ -----
+	
+	-- 1. Make a TextButton 
+	-- 2. Make a Frame, and rename it Credit (if you don't want to touch the script)
+	--	 or rename it whatever (Menu, Rules) and then in the script you'll see what to do.
+	--3. Customize yer stuff, and make the frame invisible by unchecking "Visible."
+	
+	----- ~Done~ -----
+	
+	--And again, thank you. You may want to delete this after.
+	
+	--- ~~Published by LAClout ~~ ---
+	
+	--I don't know if this was already published by anyone else, but I'm sorry if this was.
+	
+	--P.S. Publishing this as your own is like saying "I suck at this stuff, so I'mma be a 
+	--	wannabe and say "I made this"
+end
+coroutine.wrap(YBQPVLZ_fake_script)()
